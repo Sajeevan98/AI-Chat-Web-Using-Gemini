@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: simple-ai-web
+
+
+server:
+  port: 8081
+
+gemini:
+  api:
+    key: ${GEMINI_API_KEY}
+    url: ${GEMINI_API_URL}
